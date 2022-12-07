@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside width="200px">
+    <el-aside width="auto">
         <common-aside/>
     </el-aside>
     <el-container>
@@ -18,6 +18,7 @@
 import CommonAside from '@/components/CommonAside.vue';
 import CommonHeader from '@/components/CommonHeader.vue'
 export default {
+  name: 'Main',
   data() {
     return {};
   },
